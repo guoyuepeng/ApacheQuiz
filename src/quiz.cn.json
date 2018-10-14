@@ -1,65 +1,65 @@
 [
   {
-    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足:",
+    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足: For a vote on a top level project release to pass you need:",
     "category": "release policy",
     "show": "4",
     "answers": [
       {
-        "answer": "3个或更多的+1票",
+        "answer": "3个或更多的+1票。3 or more +1 votes.",
         "correct": false,
         "level": 2,
-        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。Releases use majority approval voting in which 3 or more +1 votes and more +1s than -1."
       },
       {
-        "answer": "+1票数要多过-1票数",
+        "answer": "+1票数要多过-1票数。 More +1s votes than -1s votes.",
         "correct": false,
         "level": 2,
-        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。Releases use majority approval voting in which 3 or more +1 votes and more +1s than -1."
       },
       {
-        "answer": "3个或更多的+1票，并且+1票数要多过-1票数",
+        "answer": "3个或更多的+1票，并且+1票数要多过-1票数。 3 or more +1 votes and more +1s than -1s.",
         "correct": true,
         "level": 1,
-        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。Releases use majority approval voting in which 3 or more +1 votes and more +1s than -1."
       },
       {
-        "answer": "一个-1票会停止投票",
+        "answer": "一个-1票会停止投票。 One -1 stops the vote.",
         "correct": false,
         "level": 1,
-        "hint": "发布不能被否决"
+        "hint": "发布不能被否决。 Releases can't be vetoed."
       },
       {
-        "answer": "普通用户的投票是有效的(binding)并被累计",
+        "answer": "普通用户的投票是有效的(binding)并被累计。 Votes by users are binding and count.",
         "correct": false,
         "level": 1,
-        "hint": "只有 PMC 成员的投票是有效的"
+        "hint": "只有 PMC 成员的投票是有效的。 Only PMC members votes count on releases."
       },
       {
-        "answer": "Committer的投票是有效的(binding)并被累计",
-        "correct": false,
-        "level": 2,
-        "hint": "只有 PMC 成员的投票是有效的"
-      },
-      {
-        "answer": "PMC 成员的投票是有效的(binding)并被累计",
-        "correct": true,
-        "level": 1,
-        "hint": "只有 PMC 成员的投票是有效的"
-      },
-      {
-        "answer": "一旦得到3个+1票，就算通过",
+        "answer": "Committer的投票是有效的(binding)并被累计。 Votes by committer are binding and count.",
         "correct": false,
         "level": 2,
-        "hint": "你需要留出足够的时间让每个人投票"
+        "hint": "只有 PMC 成员的投票是有效的。 Only PMC members votes count on releases."
       },
       {
-        "answer": "投票应至少开放72小时",
+        "answer": "PMC 成员的投票是有效的(binding)并被累计。",
         "correct": true,
         "level": 1,
-        "hint": "你需要留出足够的时间让每个人投票"
+        "hint": "只有 PMC 成员的投票是有效的。 Votes by PMC members are binding and count."
+      },
+      {
+        "answer": "一旦得到3个+1票，就算通过。 Passes as soon as you get 3 +1 votes.",
+        "correct": false,
+        "level": 2,
+        "hint": "你需要留出足够的时间让每个人投票。 You need to allow enough time for everyone to vote."
+      },
+      {
+        "answer": "投票应至少开放72小时。 Passes as soon as you get 3 +1 votes.",
+        "correct": true,
+        "level": 1,
+        "hint": "你需要留出足够的时间让每个人投票 You need to allow enough time for everyone to vote."
       }
     ],
-    "reason": "Release 使用多数批准投票（即至少3个 + 1票和+1票多于-1票），投票应开放72小时，以便每个人都有机会投票。",
+    "reason": "发布使用多数批准投票（即至少3个 + 1票和+1票多于-1票），投票应开放72小时，以便每个人都有机会投票。Releases use majority approval voting (i.e at least 3 +1 votes and more +1 votes than -1 votes) and the vote should to be open 72 hours so that everyone has a chance to vote.",
     "links": [
       {
         "name": "Release Approval",
@@ -76,48 +76,48 @@
     ]
   },
   {
-    "question": "对于 release，PMC（项目管理委员会）必须:",
+    "question": "对于发布，PMC（项目管理委员会）必须: For a release a PMC (Project management committee) must:",
     "category": "release policy",
     "show": "4",
     "answers": [
       {
-        "answer": "发布正式（official） release.",
+        "answer": "做正式发布（official release）。Publish official releases.",
         "correct": true,
         "level": 1,
-        "hint": "只有通过正式投票的 release 才是被允许的。"
+        "hint": "只有通过正式投票的发布才是被允许的。Only official voted on releases are allowed."
       },
       {
-        "answer": "引导用户到快照 release。",
+        "answer": "引导用户到快照发布。Direct users towards snapshot releases.",
         "correct": false,
         "level": 2,
-        "hint": "用户应该被引导到官方 release。"
+        "hint": "用户应该被引导到官方发布。Users should be directed to only official releases"
       },
       {
-        "answer": "引导用户到每日构建(nightly build)",
+        "answer": "引导用户到每日构建(nightly build)。Direct users towards nightly builds.",
         "correct": false,
         "level": 2,
-        "hint": "用户应该被引导到官方 release。"
+        "hint": "用户应该被引导到官方发布。Users should be directed to only official releases"
       },
       {
-        "answer": "从下载页链接到每日构建",
+        "answer": "从下载页链接到每日构建。Link to nightly builds from their download page.",
         "correct": false,
         "level": 2,
-        "hint": "用户应该被引导到官方 release。"
+        "hint": "用户应该被引导到官方发布。Users should be directed to only official releases."
       },
       {
-        "answer": "发布 maven 工件。",
+        "answer": "发布 maven 工件。Publish maven artifacts.",
         "correct": false,
         "level": 2,
-        "hint": "Maven只是备用分发机制。"
+        "hint": "Maven 只是备用分发机制。Maven is a secondary distribution mechanism."
       },
       {
-        "answer": "提供二进制发布版本。",
+        "answer": "提供二进制发布版本。Provide a binary release.",
         "correct": false,
         "level": 1,
-        "hint": "Apache 发布开源代码，二进制版本仅为方便使用而提供。"
+        "hint": "Apache 发布开源代码，二进制版本仅为方便使用而提供。Apache releases open source, binaries are provided as a convenience only."
       }
     ],
-    "reason": "Apache 发布源代码版本，用户只能被引导到已经通过投票的官方版本。",
+    "reason": "Apache 发布源代码版本，用户只能被引导到已经通过投票的官方版本。Apache only produces source releases and users can only be directed to official releases that have been voted on.",
     "links": [
       {
         "name": "Publication",
@@ -130,97 +130,97 @@
     ]
   },
   {
-    "question": "每个 ASF release 必须包含:",
+    "question": "每个 ASF 发布必须包含: Each ASF release must contain:",
     "category": "release policy",
     "show": "4",
     "answers": [
       {
-        "answer": "LICENSE 文件",
+        "answer": "LICENSE 文件。A LICENSE file.",
         "correct": true,
         "level": 1,
-        "hint": "每个发布版本都必须包含Apache License 2.0的全文。"
+        "hint": "每个发布版本都必须包含Apache License 2.0的全文。Each release must contain the full text of the Apache License 2.0."
       },
       {
-        "answer": "NOTICE 文件",
+        "answer": "NOTICE 文件。A NOTICE file",
         "correct": true,
         "level": 1,
-        "hint": "按照 ASF 政策，这个 NOTICE 文件是必需的。 使用 ALv2 的第三方软件不强制有 NOTICE 文件。"
+        "hint": "按照 ASF 政策，这个 NOTICE 文件是必需的。 使用 ALv2 的第三方软件不强制有 NOTICE 文件。A NOTICE file is required by ASF policy. 3rd party licensed ALv2 software do not require a NOTICE file."
       },
       {
-        "answer": "LICENSE 文件中必须提及所有捆绑软件的许可证（使用 ALv2 许可的第三方软件除外）。",
+        "answer": "LICENSE 文件中必须提及所有捆绑软件的许可证（使用 ALv2 许可的第三方软件除外）。All licenses (except 3rd party Apache V2 licensed software) of bundled software must be mentioned in LICENSE.",
         "correct": true,
         "level": 2,
-        "hint": "该版本的用户需要知道所有许可条款，因此最好将其保存在一个位置。"
+        "hint": "该版本的用户需要知道所有许可条款，因此最好将其保存在一个位置。Any users of the release need to know all of the license terms and it's best to keep that in one place."
       },
       {
-        "answer": "必须在 LICENSE 中提及所有依赖软件的许可证（使用 ALv2 许可的第三方软件除外）。",
+        "answer": "必须在 LICENSE 中提及所有依赖软件的许可证（使用 ALv2 许可的第三方软件除外）。All licenses (except 3rd party Apache V2 licensed) of dependencies must be mentioned in LICENSE.",
         "correct": false,
         "level": 2,
-        "hint": "LICENSE 和 NOTICE 中仅提及第三方捆绑软件。"
+        "hint": "LICENSE 和 NOTICE 中仅提及第三方捆绑软件。Only 3rd party bundled software should be mentioned in LICENSE and NOTICE."
       },
       {
-        "answer": "在 LICENSE 中列出发行版中包含的所有ALv2许可软件.",
+        "answer": "在 LICENSE 中列出发行版中包含的所有ALv2许可软件。List all ALv2 license software in LICENSE contained within the release.",
         "correct": false,
         "level": 2,
-        "hint": "虽然列出发布中捆绑的所有 Apache 许可软件是个好主意，但这不是必需的."
+        "hint": "虽然列出发布中捆绑的所有 Apache 许可软件是个好主意，但这不是必需的。While it's a good idea to list all Apache licensed software bundled in a release it's not required."
       },
       {
-        "answer": "对于该版本中包含的每个 ALv2 许可的软件，在 LICENSE 中列出其许可证全文.",
+        "answer": "对于该版本中包含的每个 ALv2 许可的软件，在 LICENSE 中列出其许可证全文。For each ALv2 license software contained within the release include the full text of each in LICENSE.",
         "correct": false,
         "level": 3,
-        "hint": "即使您的版本中捆绑了多个 ALv2 软件，也只需要包含一次 ALv2 的全文"
+        "hint": "即使您的版本中捆绑了多个 ALv2 软件，也只需要包含一次 ALv2 的全文。The full text of the ALv2 is only needed to be included once even if you have multiple ALv2 bits of software bundled in your release."
       },
       {
-        "answer": "LICENSE 和 NOTICE 文件可以放在发行版的任何位置.",
+        "answer": "LICENSE 和 NOTICE 文件可以放在发行版的任何位置。The LICENSE and NOTICE files can be anywhere in the release.",
         "correct": false,
         "level": 2,
-        "hint": "LICENSE 和 NOTICE 文件必须位于发行版的根目录中."
+        "hint": "LICENSE 和 NOTICE 文件必须位于发行版的根目录中。The LICENSE and NOTICE files must be in the root of the release."
       },
       {
-        "answer": "可在 LICENSE 和 NOTICE 中提供额外的信息材料.",
+        "answer": "可在 LICENSE 和 NOTICE 中提供额外的信息材料。Extra informational material can be provided in LICENSE and NOTICE.",
         "correct": false,
         "level": 2,
-        "hint": "只需要有关捆绑软件的必需信息。"
+        "hint": "只需要有关捆绑软件的必需信息。Only required information about bundled software is required."
       },
       {
-        "answer": "有关依赖关系的信息可以在 LICENSE 中提供.",
+        "answer": "有关依赖关系的信息可以在 LICENSE 中提供。Information about dependencies can be provided in LICENSE.",
         "correct": false,
         "level": 1,
-        "hint": "只有相关捆绑软件的许可信息才需要包含在 LICENSE 或 NOTICE中."
+        "hint": "只有相关捆绑软件的许可信息才需要包含在 LICENSE 或 NOTICE中。Only information about what licensed software is bundled needs to be included in LICENSE or NOTICE."
       },
       {
-        "answer": "对于所有捆绑软件，必须包含其许可证的全文.",
+        "answer": "对于所有捆绑软件，必须包含其许可证的全文。For any bundled software the full text of it's license must be included.",
         "correct": true,
         "level": 1,
-        "hint": "许可证信息需要在 LICENSE 中列出。 您还可以指向其许可证信息（例如另一个本地文件）。"
+        "hint": "许可证信息需要在 LICENSE 中列出。 您还可以指向其许可证信息（例如另一个本地文件）。License information needs to be listed in LICENSE. You can also use pointers to licence information."
       },
       {
-        "answer": "LICENSE 中可以包含捆绑软件许可证的 URL。",
+        "answer": "LICENSE 中可以包含捆绑软件许可证的 URL。A URL to the license(s) of bundled software can be included in LICENSE.",
         "correct": false,
         "level": 3,
-        "hint": "不能使用 URL，需要指向包含许可证全文的本地文件."
+        "hint": "不能使用 URL，需要指向包含许可证全文的本地文件。A pointer needs to point to a local file containing the full text of the license."
       },
       {
-        "answer": "所有 ASF 源文件都要有 ASF 标头.",
+        "answer": "所有 ASF 源文件都要有 ASF 标头。All ASF source files have ASF headers.",
         "correct": true,
         "level": 1,
-        "hint": "所有源文件都必须具有 ASF 标头，除非它们属于另一个许可证。"
+        "hint": "所有源文件都必须具有 ASF 标头，除非它们属于另一个许可证。All source files must have the ASF header unless they are under another license"
       },
       {
-        "answer": "DEPENDENCIES 文件.",
+        "answer": "DEPENDENCIES 文件。A DEPENDENCIES file.",
         "correct": false,
         "level": 2,
-        "hint": "ASF 政策不要求有 DEPENDENCIES 文件。 但是包含一个这样的文件是有帮助的。"
+        "hint": "ASF 政策不要求有 DEPENDENCIES 文件。 但是包含一个这样的文件是有帮助的。A DEPENDENCIES file is not required by ASF policy. However it is helpful to include one。"
       },
       {
         "answer": "jar 文件",
         "level": 1,
         "correct": false,
-        "hint": "Apache 发布源代码，源代码发行版不能包含任何已编译的代码。"
+        "hint": "Apache 发布源代码，源代码发行版不能包含任何已编译的代码。Apache releases source code and a source release can't contain any compiled code."
       }
 
     ],
-    "reason": "一个发行版应包含 LICENSE 和 NOTICE 文件，并且只有必需的信息才能放在 LICENSE 和 NOTICE 中。 LICENSE 文件应列出所有捆绑的软件许可证，但可以省略 ALv2 许可证。",
+    "reason": "一个发行版应包含 LICENSE 和 NOTICE 文件，并且只有必需的信息才能放在 LICENSE 和 NOTICE 中。 LICENSE 文件应列出所有捆绑的软件许可证，但可以省略 ALv2 许可证。A release should contain a LICENSE and NOTICE file and only required information be placed in LICENSE and NOTICE. The LICENSE file should list all bundled software licenses, but may omit ALv2 ones.",
     "links": [
       {
         "name": "Licensing Documentation",
@@ -229,75 +229,75 @@
     ]
   },
   {
-    "question": "The ASF has a release policy because:",
+    "question": "ASF 有自己的发布政策，因为： The ASF has a release policy because:",
     "show": "4",
     "category": "release policy",
     "answers": [
       {
-        "answer": "It provides legal protection for people involved in the release.",
+        "answer": "它为参与发布的人员提供法律保护。 It provides legal protection for people involved in the release.",
         "correct": true,
         "level": 2,
-        "hint": "To provide legal protection there needs to be a distinction between in progress work and released work."
+        "hint": "为了提供法律保护，需要区分进行中的工作和已发布的工作。 To provide legal protection there needs to be a distinction between in progress work and released work."
       },
       {
-        "answer": "Apache loves bureaucracy.",
+        "answer": "Apache 喜欢官僚主义。Apache loves bureaucracy.",
         "correct": false,
         "level": 1,
-        "hint": "Apache tries to keep bureaucracy to a minimum but some is required for legal protection and openness."
+        "hint": "Apache 试图将官僚主义保持在最低限度，但有些是法律保护和开放所必需的。 Apache tries to keep bureaucracy to a minimum but some is required for legal protection and openness."
       },
       {
-        "answer": "To reduce the cost of legal protection.",
+        "answer": "为了降低法律保护成本。To reduce the cost of legal protection.",
         "correct": true,
         "level": 2,
-        "hint": "Not following policy may lessen on the legal protection provided or raise insurance premiums."
+        "hint": "不遵守政策可能会削弱受到的法律保护，或导致保险费的提高。Not following policy may lessen on the legal protection provided or raise insurance premiums."
       },
       {
-        "answer": "To encourage community participation.",
+        "answer": "鼓励社区参与。To encourage community participation.",
         "correct": true,
         "level": 2,
-        "hint": "Having a ceremony around releases encourages participation."
+        "hint": "发布带来的仪式感可以鼓励社区的参与。Having a ceremony around releases encourages participation."
       },
       {
-        "answer": "So that the builds are easily reproducible.",
+        "answer": "这样构建可以很容易重现。So that the builds are easily reproducible.",
         "correct": true,
         "level": 1,
-        "hint": "If an issue is found with a build you may need to recreate the release or fix the issue and make a new release."
+        "hint": "如果在构建中发现问题，您可能需要重新创建发布或修复问题并制作新发布。If an issue is found with a build you may need to recreate the release or fix the issue and make a new release."
       },
       {
-        "answer": "To keep a history of all decisions and changes.",
+        "answer": "保留所有决策和变更的历史记录。To keep a history of all decisions and changes.",
         "correct": true,
         "level": 1,
         "hint": ""
       },
       {
-        "answer": "To have an open process visible by anyone.",
+        "answer": "让所有人都可以看到一个开放的过程。To have an open process visible by anyone.",
         "correct": true,
         "level": 1,
-        "hint": "Apache produces open source software in the open."
+        "hint": "Apache 以开放的流程生产开源软件。 Apache produces open source software in the open."
       },
       {
-        "answer": "To get around some software licenses clauses.",
+        "answer": "绕过一些软件许可条款。To get around some software licenses clauses.",
         "correct": false,
         "level": 2,
-        "hint": "All release must comply with Apache legal policy and any contained 3rd party licenses."
+        "hint": "所有发布必须符合 Apache 法律政策和任何包含的第三方许可。All release must comply with Apache legal policy and any contained 3rd party licenses."
       },
       {
-        "answer": "As a barrier to quickly making software releases.",
+        "answer": "作为快速制作软件的障碍。As a barrier to quickly making software releases.",
         "correct": false,
         "level": 1,
-        "hint": "Make releases and make them often they way they are easier to review."
+        "hint": "制作发布并经常制作它们，以便更容易审查。Make releases and make them often they way they are easier to review."
       },
       {
-        "answer": "Apache loves complexity.",
+        "answer": "Apache 喜欢复杂性。Apache loves complexity.",
         "correct": false,
         "level": 1,
-        "hint": "Is best to keep the release process simple so it can be easily performed by others."
+        "hint": "最好保持发布过程简单，以便其他人可以轻松执行。Is best to keep the release process simple so it can be easily performed by others."
       }
     ],
-    "reason": "The release policy exists to provide legal protection to those making the release.",
+    "reason": "发布政策旨在为发布者提供法律保护。The release policy exists to provide legal protection to those making the release.",
     "links": [
       {
-        "name": "Why do we need a foundation wide policy?",
+        "name": "为什么我们需要一个基础广泛的政策？Why do we need a foundation wide policy?",
         "link": "http://www.apache.org/legal/release-policy.html#why"
       }
     ]
@@ -308,16 +308,16 @@
     "category": "release policy",
     "answers": [
       {
-        "answer": "检查候选版本符合ASF法务政策。",
+        "answer": "检查候选版本符合 ASF 法务政策。",
         "correct": true,
         "level": 1,
-        "hint": "一个发布版本必须符合ASF的政策。"
+        "hint": "一个发布版本必须符合 ASF 的政策。"
       },
       {
-        "answer": "检查候选版本符合ASF发布政策。",
+        "answer": "检查候选版本符合 ASF 发布政策。",
         "correct": true,
         "level": 1,
-        "hint": "一个发布版本必须符合ASF的政策。"
+        "hint": "一个发布版本必须符合 ASF 的政策。"
       },
       {
         "answer": "检查候选版本拥有合法的签名。",
@@ -326,10 +326,10 @@
         "hint": "所有的发布版本必须有合法的签名,否则它们有可能会被篡改。"
       },
       {
-        "answer": "检查候选版本拥有LICENSE 和 NOTICE 文件说明。",
+        "answer": "检查候选版本拥有 LICENSE 和 NOTICE 文件说明。",
         "correct": true,
         "level": 1,
-        "hint": "ASF政策要求LICENSE和NOTICE这两个文件。"
+        "hint": "ASF政策要求 LICENSE 和 NOTICE 这两个文件。"
       },
       {
         "answer": "检查候选版本能编译通过。",
@@ -341,7 +341,7 @@
         "answer": "在他们机器上测试编译后的版本。",
         "correct": true,
         "level": 2,
-        "hint": "发布必须通过测试证明软件能正常工作。当然，他们有些小bug也是容忍的。"
+        "hint": "发布必须通过测试证明软件能正常工作。当然，它们有些小 bug 也是容忍的。"
       },
       {
         "answer": "检查发布的版本和版本控制树上的一致。",
@@ -350,10 +350,10 @@
         "hint": "发布需要是可重现发布。"
       },
       {
-        "answer": "检查没有严重的bug。",
+        "answer": "检查没有严重的 bug。",
         "correct": false,
         "level": 2,
-        "hint": "软件都有bug。但我们致力于比上一个发布更好的产品。"
+        "hint": "软件都有 bug。但我们致力于比上一个发布更好的产品。"
       },
       {
         "answer": "检查文档是否最新的。",
@@ -368,7 +368,7 @@
         "hint": "一个失败的测试可能是个隐患。但在投票表决前，我们并不强制要求所有的测试成功。"
       }
     ],
-    "reason": "在投票表决之前，一个PMC成员需要检查签名，发布符合ASF政策诸如含有LICENSE,NOTICE文件，发布能编译，产品能工作。",
+    "reason": "在投票表决之前，一个 PMC 成员需要检查签名，发布符合 ASF 政策诸如含有 LICENSE, NOTICE 文件，发布能编译，产品能工作。",
     "links": [
       {
         "name": "发布要求。",
@@ -381,21 +381,21 @@
     ]
   },
   {
-    "question": "新版本发布后，PMC必须做的有？",
+    "question": "新版本发布后，PMC 必须做的有？",
     "show": "4",
     "category": "release policy",
     "answers": [
       {
-        "answer": "将软件成品发布到www.apache.org/dist。",
+        "answer": "将软件成品发布到 www.apache.org/dist。",
         "correct": true,
         "level": 1,
         "hint": "这个是官方的发布位置，也是其他的镜像的来源之所。"
       },
       {
-        "answer": "发布maven软件成品。",
+        "answer": "发布 maven 软件成品。",
         "correct": false,
         "level": 2,
-        "hint": "Maven是一种二级分发机制。"
+        "hint": "Maven 是一种二级分发机制。"
       },
       {
         "answer": "向用户，开发者邮件列表通告新的发布。",
@@ -410,10 +410,10 @@
         "hint": "以前的发布是会自动存档的。"
       },
       {
-        "answer": "最好是等24小时之后公告以便其他的镜像能够及时获取新的发布。",
+        "answer": "最好是等24小时之后公告以便其它的镜像能够及时获取新的发布。",
         "correct": true,
         "level": 1,
-        "hint": "其他的镜像可能很需要花些时间才能获取我们新发布的软件。"
+        "hint": "其它的镜像可能很需要花些时间才能获取我们新发布的软件。"
       }
     ],
     "reason": "发布需要发布到正确的位置，并且要及时告知社区。",
@@ -437,63 +437,63 @@
     ]
   },
   {
-    "question": "下面那些license文件是和Apache License 2.0 相兼容并相似的？",
+    "question": "下面哪些 license 文件是和 Apache License 2.0 相兼容并相似的？",
     "show": "6",
     "category": "licensing",
     "answers": [
       {
-        "answer": "Apache software License 1.0.",
+        "answer": "Apache Software License 1.0.",
         "correct": false,
         "level": 2,
         "hint": "The Apache Software License 1.0 包含广告条款。"
       },
       {
-        "answer": "Apache software License 1.1.",
+        "answer": "Apache Software License 1.1.",
         "correct": true,
         "level": 1,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "BSD 2-clause.",
         "correct": true,
         "level": 1,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "BSD 3-clause.",
         "correct": true,
         "level": 1,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "BSD with advertising clause.",
         "correct": false,
         "level": 2,
-        "hint": "其广告条款和Apache License 2.0不相容"
+        "hint": "其广告条款和 Apache License 2.0不相容"
       },
       {
         "answer": "MIT or X11 license.",
         "correct": true,
         "level": 1,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "W3C software license.",
         "correct": true,
         "level": 2,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "GNU GPL 1, 2, 3.",
         "correct": false,
         "level": 1,
-        "hint": "GPL License 软件的衍生软件也必须是GPL license。"
+        "hint": "GPL License 软件的衍生软件也必须是 GPL License"
       },
       {
         "answer": "GNU LGPL 2, 2.1, 3.",
         "correct": false,
         "level": 1,
-        "hint": "GPL License 软件的衍生软件也必须是GPL license。"
+        "hint": "GPL License 软件的衍生软件也必须是GPL License"
       },
       {
         "answer": "JSON license.",
@@ -517,7 +517,7 @@
         "answer": "Creative Commons Copyright-Only Dedication.",
         "correct": true,
         "level": 2,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       },
       {
         "answer": "Eclipse Public License EPL 1.0.",
@@ -535,10 +535,10 @@
         "answer": "Works in the public domain.",
         "correct": true,
         "level": 1,
-        "hint": "一个没有增加限制条款的License是相兼容的。"
+        "hint": "一个没有增加限制条款的 License 是相兼容的。"
       }
     ],
-    "reason": "在Apache License 2.0基础上没有增加额外的限制性条款的License都是和Apache License 2.0相兼容的。",
+    "reason": "在 Apache License 2.0 基础上没有增加额外的限制性条款的 License 都是和 Apache License 2.0 相兼容的。",
     "links": [
       {
         "name": "兼容的licenses",
@@ -559,7 +559,7 @@
     ]
   },
   {
-    "question": "Apache分发能使用禁止使用（目录X）协议的软件吗？ Can Apache distribute products under a prohibited ('Category X') license?",
+    "question": "Apache 分发能使用禁止使用（目录X）协议的软件吗？ Can Apache distribute products under a prohibited ('Category X') license?",
     "show": "2",
     "category": "licensing",
     "answers": [
@@ -603,7 +603,7 @@
         "answer": "对于所有的依赖都是可以的。 Yes for all dependencies.",
         "correct": false,
         "level": 1,
-        "hint": "Apache项目是不能依赖禁止使用的协议的软件的。 Prohibited licensed software can not be an external dependency."
+        "hint": "Apache 项目是不能依赖禁止使用的协议的软件的。 Prohibited licensed software can not be an external dependency."
       },
       {
         "answer": "不行 No.",
@@ -632,31 +632,31 @@
     "category": "licensing",
     "answers": [
       {
-        "answer": "将这些协议都包含至LICENSE中。 Include both licenses in LICENSE.",
+        "answer": "将这些协议都包含至 LICENSE中。 Include both licenses in LICENSE.",
         "correct": false,
         "level": 2,
         "hint": "选择一个最自由的协议，并使用它。 Select the most permissive license and use that."
       },
       {
-        "answer": "通过扔硬币的方式来选择一个协议包含在LICENSE中。 Toss a coin and put one license in LICENSE.",
+        "answer": "通过扔硬币的方式来选择一个协议包含在 LICENSE 中。 Toss a coin and put one license in LICENSE.",
         "correct": true,
         "level": 2,
         "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       },
       {
-        "answer": "在NOTICE文件中加一个声明。 Put a note in NOTICE about this.",
+        "answer": "在 NOTICE 文件中加一个声明。 Put a note in NOTICE about this.",
         "correct": false,
         "level": 2,
-        "hint": "只在NOTICE文件中添加必要的信息。 Only required information should go in NOTICE"
+        "hint": "只在 NOTICE 文件中添加必要的信息。 Only required information should go in NOTICE"
       },
       {
-        "answer": "选择一个最自由的协议，并把这个协议放到LICENSE文件中。Select the most permissive license and put that in LICENSE.",
+        "answer": "选择一个最自由的协议，并把这个协议放到 LICENSE 文件中。Select the most permissive license and put that in LICENSE.",
         "correct": true,
         "level": 2,
         "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       },
       {
-        "answer": "协议选择顺序是 目录A的协议最优，其次是目录B协议，最后是目录X。选择好协议之后把它放到LICENS文件中。Prefer a Category A license over a Category B license over a Category X license and include that.",
+        "answer": "协议选择顺序是：目录A的协议最优，其次是目录B协议，最后是目录X。选择好协议之后把它放到 LICENS 文件中。Prefer a Category A license over a Category B license over a Category X license and include that.",
         "correct": true,
         "level": 1,
         "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
@@ -677,7 +677,7 @@
     ]
   },
   {
-    "question": "对于第三方的Notice文件需要怎么处理？ What are required third party notices?",
+    "question": "对于第三方的 Notice 文件需要怎么处理？ What are required third party notices?",
     "show": "4",
     "category": "licensing",
     "answers": [
@@ -685,37 +685,37 @@
         "answer": "没有人知道。Nobody knows.",
         "correct": false,
         "level": 2,
-        "hint": "是的，有些时候好像是这样，就没有包含在在LICENSE中的声明信息都需要放到NOTICE中。 Well it sometimes seems that way. Any required notice that is not in LICENSE Should go in NOTICE."
+        "hint": "是的，有些时候好像是这样，就没有包含在在 LICENSE 中的声明信息都需要放到 NOTICE中。 Well it sometimes seems that way. Any required notice that is not in LICENSE Should go in NOTICE."
       },
       {
         "answer": "第三方的版权申明信息。 Third party copyright notices.",
         "correct": false,
         "level": 2,
-        "hint": "大部分情况版权信息都是放在LICENSE文件中。 例外情况是NOTICE中有重新定义了版权信息或者是使用Apache V2软件协议的第三方软件的版权信息。 Copyrights usually go in LICENSE. The exceptions are relocated copyrights and copyrights from 3rd party Apache license v2 NOTICE files."
+        "hint": "大部分情况版权信息都是放在 LICENSE 文件中。 例外情况是NOTICE中有重新定义了版权信息或者是使用Apache V2软件协议的第三方软件的版权信息。 Copyrights usually go in LICENSE. The exceptions are relocated copyrights and copyrights from 3rd party Apache license v2 NOTICE files."
       },
       {
         "answer": "许可定义。 License terms.",
         "correct": false,
         "level": 1,
-        "hint": "许可定义需要放在LICENSE文件中， NOTICE中只包含必要的信息。 License terms should be listed in LICENSE. Only required information should go in NOTICE."
+        "hint": "许可定义需要放在 LICENSE 文件中， NOTICE中只包含必要的信息。 License terms should be listed in LICENSE. Only required information should go in NOTICE."
       },
       {
         "answer": "许可列表。 list of licenses.",
         "correct": false,
         "level": 1,
-        "hint": "许可定义需要放在LICENSE文件中， NOTICE中只包含必要的信息。Licenses should be listed in LICENSE. Only required information should go in NOTICE."
+        "hint": "许可定义需要放在 LICENSE 文件中， NOTICE中只包含必要的信息。Licenses should be listed in LICENSE. Only required information should go in NOTICE."
       },
       {
         "answer": "按照第三方软件的要求提供一个列表，把针对第三方软件修改的内容都列出来。 A list of all changes to software when the third party software requires that.",
         "correct": true,
         "level": 3,
-        "hint": "NOTICE中只需要包含没有在LICENSE中申明的第三方声明。 Only required third party notices not listed in LICENSE need to be included in NOTICE."
+        "hint": "NOTICE 中只需要包含没有在 LICENSE 中申明的第三方声明。 Only required third party notices not listed in LICENSE need to be included in NOTICE."
       },
       {
         "answer": "如果第三方协议要求，需要提供一个原始软件的链接。 A link to the original software if the third party license requires that.",
         "correct": true,
         "level": 3,
-        "hint": "NOTICE中只需要包含没有在LICENSE中申明的第三方声明。Only required third party notices not listed in LICENSE need to be included in NOTICE."
+        "hint": "NOTICE 中只需要包含没有在 LICENSE 中申明的第三方声明。Only required third party notices not listed in LICENSE need to be included in NOTICE."
       }
     ],
     "reason": "选择一个最自由的协议，并使用它。不要包含禁止使用协议软件。Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
