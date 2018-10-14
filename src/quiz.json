@@ -365,7 +365,7 @@
         "answer": "That all test pass.",
         "level": 2,
         "correct": false,
-        "hint": "A failing test probably indicates a problem but all tests passing is not a requirment for voting."
+        "hint": "A failing test probably indicates a problem but all tests passing is not a requirement for voting."
       }
     ],
     "reason": "Before voting a PMC member should check that the release is correctly signed, complies with ASF policy, contains a LICENSE and NOTICE file, can be compiled from source and generally works.",
@@ -389,7 +389,7 @@
         "answer": "Place the artifacts in www.apache.org/dist.",
         "correct": true,
         "level": 1,
-        "hint": "This is thw official place for releases and the place they are mirrored from."
+        "hint": "This is the official place for releases and the place they are mirrored from."
       },
       {
         "answer": "Publish maven artifacts.",
@@ -413,7 +413,7 @@
         "answer": "It's best to wait 24 hours before announcing to allow the release to be copied to the mirrors.",
         "correct": true,
         "level": 1,
-        "hint": "It may talk a little while for thr mirrors to catch up."
+        "hint": "It may talk a little while for the mirrors to catch up."
       }
     ],
     "reason": "Releases need to published in the correct place (to be mirrored) and you need to tell people about them.",
