@@ -1,6 +1,6 @@
 [
   {
-    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足哪些条件:",
+    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足:",
     "category": "release policy",
     "show": "4",
     "answers": [
@@ -130,97 +130,97 @@
     ]
   },
   {
-    "question": "Each ASF release must contain:",
+    "question": "每个 ASF release 必须包含:",
     "category": "release policy",
     "show": "4",
     "answers": [
       {
-        "answer": "A LICENSE file.",
+        "answer": "LICENSE 文件",
         "correct": true,
         "level": 1,
-        "hint": "Each release must contain the full text of the Apache License 2.0."
+        "hint": "每个发布版本都必须包含Apache License 2.0的全文。"
       },
       {
-        "answer": "A NOTICE file",
+        "answer": "NOTICE 文件",
         "correct": true,
         "level": 1,
-        "hint": "A NOTICE file is required by ASF policy. 3rd party licensed ALv2 software do not require a NOTICE file."
+        "hint": "按照 ASF 政策，这个 NOTICE 文件是必需的。 使用 ALv2 的第三方软件不强制有 NOTICE 文件。"
       },
       {
-        "answer": "All licenses (except 3rd party Apache V2 licensed software) of bundled software must be mentioned in LICENSE.",
+        "answer": "LICENSE 文件中必须提及所有捆绑软件的许可证（使用 ALv2 许可的第三方软件除外）。",
         "correct": true,
         "level": 2,
-        "hint": "Any users of the release need to know all of the license terms and it's best to keep that in one place."
+        "hint": "该版本的用户需要知道所有许可条款，因此最好将其保存在一个位置。"
       },
       {
-        "answer": "All licenses (except 3rd party Apache V2 licensed) of dependencies must be mentioned in LICENSE.",
+        "answer": "必须在 LICENSE 中提及所有依赖软件的许可证（使用 ALv2 许可的第三方软件除外）。",
         "correct": false,
         "level": 2,
-        "hint": "Only 3rd party bundled software should be mentioned in LICENSE and NOTICE."
+        "hint": "LICENSE 和 NOTICE 中仅提及第三方捆绑软件。"
       },
       {
-        "answer": "List all ALv2 license software in LICENSE contained within the release.",
+        "answer": "在 LICENSE 中列出发行版中包含的所有ALv2许可软件.",
         "correct": false,
         "level": 2,
-        "hint": "While it's a good idea to list all Apache licensed software bundled in a release it's not required."
+        "hint": "虽然列出发布中捆绑的所有 Apache 许可软件是个好主意，但这不是必需的."
       },
       {
-        "answer": "For each ALv2 license software contained within the release include the full text of each in LICENSE.",
+        "answer": "对于该版本中包含的每个 ALv2 许可的软件，在 LICENSE 中列出其许可证全文.",
         "correct": false,
         "level": 3,
-        "hint": "The full text of the ALv2 is only needed to be included once even if you have multiple ALv2 bits of software bundled in your release."
+        "hint": "即使您的版本中捆绑了多个 ALv2 软件，也只需要包含一次 ALv2 的全文"
       },
       {
-        "answer": "The LICENSE and NOTICE files can be anywhere in the release.",
+        "answer": "LICENSE 和 NOTICE 文件可以放在发行版的任何位置.",
         "correct": false,
         "level": 2,
-        "hint": "The LICENSE and NOTICE files must be in the root of the release."
+        "hint": "LICENSE 和 NOTICE 文件必须位于发行版的根目录中."
       },
       {
-        "answer": "Extra informational material can be provided in LICENSE and NOTICE.",
+        "answer": "可在 LICENSE 和 NOTICE 中提供额外的信息材料.",
         "correct": false,
         "level": 2,
-        "hint": "Only required information about bundled software is required."
+        "hint": "只需要有关捆绑软件的必需信息。"
       },
       {
-        "answer": "Information about dependencies can be provided in LICENSE.",
+        "answer": "有关依赖关系的信息可以在 LICENSE 中提供.",
         "correct": false,
         "level": 1,
-        "hint": "Only information about what licensed software is bundled needs to be included in LICENSE or NOTICE."
+        "hint": "只有相关捆绑软件的许可信息才需要包含在 LICENSE 或 NOTICE中."
       },
       {
-        "answer": "For any bundled software the full text of it's license must be included.",
+        "answer": "对于所有捆绑软件，必须包含其许可证的全文.",
         "correct": true,
         "level": 1,
-        "hint": "License information needs to be listed in LICENSE. You can also use pointers to licence information."
+        "hint": "许可证信息需要在 LICENSE 中列出。 您还可以指向其许可证信息（例如另一个本地文件）。"
       },
       {
-        "answer": "A URL to the license(s) of bundled software can be included in LICENSE.",
+        "answer": "LICENSE 中可以包含捆绑软件许可证的 URL。",
         "correct": false,
         "level": 3,
-        "hint": "A pointer needs to point to a local file containing the full text of the license."
+        "hint": "不能使用 URL，需要指向包含许可证全文的本地文件."
       },
       {
-        "answer": "All ASF source files have ASF headers.",
+        "answer": "所有 ASF 源文件都要有 ASF 标头.",
         "correct": true,
         "level": 1,
-        "hint": "All source files must have the ASF header unless they are under another license."
+        "hint": "所有源文件都必须具有 ASF 标头，除非它们属于另一个许可证。"
       },
       {
-        "answer": "A DEPENDENCIES file.",
+        "answer": "DEPENDENCIES 文件.",
         "correct": false,
         "level": 2,
-        "hint": "A DEPENDENCIES file is not required by ASF policy. However it is helpful to include one."
+        "hint": "ASF 政策不要求有 DEPENDENCIES 文件。 但是包含一个这样的文件是有帮助的。"
       },
       {
-        "answer": "jar files",
+        "answer": "jar 文件",
         "level": 1,
         "correct": false,
-        "hint": "Apache releases source code and a source release can't contain any compiled code."
+        "hint": "Apache 发布源代码，源代码发行版不能包含任何已编译的代码。"
       }
 
     ],
-    "reason": "A release should contain a LICENSE and NOTICE file and only required information be placed in LICENSE and NOTICE. The LICENSE file should list all bundled software licenses, but may omit ALv2 ones.",
+    "reason": "一个发行版应包含 LICENSE 和 NOTICE 文件，并且只有必需的信息才能放在 LICENSE 和 NOTICE 中。 LICENSE 文件应列出所有捆绑的软件许可证，但可以省略 ALv2 许可证。",
     "links": [
       {
         "name": "Licensing Documentation",
