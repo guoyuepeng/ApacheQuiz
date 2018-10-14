@@ -559,30 +559,30 @@
     ]
   },
   {
-    "question": "Can Apache distribute products under a prohibited ('Category X') license?",
+    "question": "Apache分发能使用禁止使用（目录X）协议的软件吗？ Can Apache distribute products under a prohibited ('Category X') license?",
     "show": "2",
     "category": "licensing",
     "answers": [
       {
-        "answer": "Yes for any Category X bundled software.",
+        "answer": "可以，我们可以分发任何基于目录X的软件。 Yes for any Category X bundled software.",
         "correct": false,
         "level": 1,
-        "hint": "Prohibited licensed software can not be distributed."
+        "hint": "禁止的协议的软件是不能分发的。 Prohibited licensed software can not be distributed."
       },
       {
-        "answer": "No (with a couple of rare exceptions).",
+        "answer": "不可以（但是有一些特殊的意外情况）No (with a couple of rare exceptions).",
         "correct": true,
         "level": 1,
-        "hint": "Prohibited licensed software can not be distributed."
+        "hint": "禁止的协议的软件是不能分发的。 Prohibited licensed software can not be distributed."
       },
       {
-        "answer": "Yes but only for some common build tools.",
+        "answer": "可以，但是只能针对只能针对一些通用的软件构建工具。 Yes but only for some common build tools.",
         "correct": true,
         "level": 3,
-        "hint": "Some prohibited licensed build tool software can be distributed."
+        "hint": "有一些禁止许可协议的构建工具软件是能够分发的。 Some prohibited licensed build tool software can be distributed."
       }
     ],
-    "reason": "Prohibited licensed software can not be distributed.",
+    "reason": "禁止的协议的软件是不能分发的。 Prohibited licensed software can not be distributed.",
     "links": [
       {
         "name": "Prohibited distribution",
@@ -595,30 +595,30 @@
     ]
   },
   {
-    "question": "Can Apache rely on products under a prohibited ('Category X') license?",
+    "question": "Apache项目可以依赖使用禁止使用（目录X）协议的软件吗？Can Apache rely on products under a prohibited ('Category X') license?",
     "show": "2",
     "category": "licensing",
     "answers": [
       {
-        "answer": "Yes for all dependencies.",
+        "answer": "对于所有的依赖都是可以的。 Yes for all dependencies.",
         "correct": false,
         "level": 1,
-        "hint": "Prohibited licensed software can not be an external dependency."
+        "hint": "Apache项目是不能依赖禁止使用的协议的软件的。 Prohibited licensed software can not be an external dependency."
       },
       {
-        "answer": "No.",
+        "answer": "不行 No.",
         "correct": true,
         "level": 1,
-        "hint": "Prohibited licensed software can not be an external dependency."
+        "hint": "Apache项目是不能依赖禁止使用的协议的软件的。 Prohibited licensed software can not be an external dependency."
       },
       {
-        "answer": "Only if it's an optional dependency.",
+        "answer": "只有一些特殊的可选依赖可以。 Only if it's an optional dependency.",
         "correct": true,
         "level": 2,
-        "hint": "Do the majority of the users need this optional component?"
+        "hint": "是不是大部分的用户需要使用这些可选的依赖组件。 Do the majority of the users need this optional component?"
       }
     ],
-    "reason": "Prohibited licensed software can not be distributed but you can rely on optional dependencies.",
+    "reason": "大部分的禁止协议软件是不能分发的，除非你依赖了一下特殊的可选依赖。 Prohibited licensed software can not be distributed but you can rely on optional dependencies.",
     "links": [
       {
         "name": "Optional dependency",
@@ -627,48 +627,48 @@
     ]
   },
   {
-    "question": "If a third party bundled bit of software is dual licensed what do you do?",
+    "question": "如果第三方的绑定依赖软件使用了双协议，你需要怎么做？ If a third party bundled bit of software is dual licensed what do you do?",
     "show": "4",
     "category": "licensing",
     "answers": [
       {
-        "answer": "Include both licenses in LICENSE.",
+        "answer": "将这些协议都包含至LICENSE中。 Include both licenses in LICENSE.",
         "correct": false,
         "level": 2,
-        "hint": "Select the most permissive license and use that."
+        "hint": "选择一个最自由的协议，并使用它。 Select the most permissive license and use that."
       },
       {
-        "answer": "Toss a coin and put one license in LICENSE.",
+        "answer": "通过扔硬币的方式来选择一个协议包含在LICENSE中。 Toss a coin and put one license in LICENSE.",
         "correct": true,
         "level": 2,
-        "hint": "Select the most permissive license and use that."
+        "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       },
       {
-        "answer": "Put a note in NOTICE about this.",
+        "answer": "在NOTICE文件中加一个声明。 Put a note in NOTICE about this.",
         "correct": false,
         "level": 2,
-        "hint": "Only required information should go in NOTICE"
+        "hint": "只在NOTICE文件中添加必要的信息。 Only required information should go in NOTICE"
       },
       {
-        "answer": "Select the most permissive license and put that in LICENSE.",
+        "answer": "选择一个最自由的协议，并把这个协议放到LICENSE文件中。Select the most permissive license and put that in LICENSE.",
         "correct": true,
         "level": 2,
-        "hint": "Select the most permissive license and use that."
+        "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       },
       {
-        "answer": "Prefer a Category A license over a Category B license over a Category X license and include that.",
+        "answer": "协议选择顺序是 目录A的协议最优，其次是目录B协议，最后是目录X。选择好协议之后把它放到LICENS文件中。Prefer a Category A license over a Category B license over a Category X license and include that.",
         "correct": true,
         "level": 1,
-        "hint": "Select the most permissive license and use that."
+        "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       },
       {
-        "answer": "Nothing is required to be done.",
+        "answer": "什么都不需要做。 Nothing is required to be done.",
         "correct": false,
         "level": 2,
-        "hint": "Select the most permissive license and use that."
+        "hint": "选择一个最自由的协议，并使用它。Select the most permissive license and use that."
       }
     ],
-    "reason": "Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
+    "reason": "选择一个最自由的协议，并使用它。不要包含禁止使用协议软件。Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
     "links": [
       {
         "name": "Mutually exclusive",
@@ -677,48 +677,48 @@
     ]
   },
   {
-    "question": "What are required third party notices?",
+    "question": "对于第三方的Notice文件需要怎么处理？ What are required third party notices?",
     "show": "4",
     "category": "licensing",
     "answers": [
       {
-        "answer": "Nobody knows.",
+        "answer": "没有人知道。Nobody knows.",
         "correct": false,
         "level": 2,
-        "hint": "Well it sometimes seems that way. Any required notice that is not in LICENSE Should go in NOTICE."
+        "hint": "是的，有些时候好像是这样，就没有包含在在LICENSE中的声明信息都需要放到NOTICE中。 Well it sometimes seems that way. Any required notice that is not in LICENSE Should go in NOTICE."
       },
       {
-        "answer": "Third party copyright notices.",
+        "answer": "第三方的版权申明信息。 Third party copyright notices.",
         "correct": false,
         "level": 2,
-        "hint": "Copyrights usually go in LICENSE. The exceptions are relocated copyrights and copyrights from 3rd party Apache license v2 NOTICE files."
+        "hint": "大部分情况版权信息都是放在LICENSE文件中。 例外情况是NOTICE中有重新定义了版权信息或者是使用Apache V2软件协议的第三方软件的版权信息。 Copyrights usually go in LICENSE. The exceptions are relocated copyrights and copyrights from 3rd party Apache license v2 NOTICE files."
       },
       {
-        "answer": "License terms.",
+        "answer": "许可定义。 License terms.",
         "correct": false,
         "level": 1,
-        "hint": "License terms should be listed in LICENSE. Only required information should go in NOTICE."
+        "hint": "许可定义需要放在LICENSE文件中， NOTICE中只包含必要的信息。 License terms should be listed in LICENSE. Only required information should go in NOTICE."
       },
       {
-        "answer": "list of licenses.",
+        "answer": "许可列表。 list of licenses.",
         "correct": false,
         "level": 1,
-        "hint": "Licenses should be listed in LICENSE. Only required information should go in NOTICE."
+        "hint": "许可定义需要放在LICENSE文件中， NOTICE中只包含必要的信息。Licenses should be listed in LICENSE. Only required information should go in NOTICE."
       },
       {
-        "answer": "A list of all changes to software when the third party software requires that.",
+        "answer": "按照第三方软件的要求提供一个列表，把针对第三方软件修改的内容都列出来。 A list of all changes to software when the third party software requires that.",
         "correct": true,
         "level": 3,
-        "hint": "Only required third party notices not listed in LICENSE need to be included in NOTICE."
+        "hint": "NOTICE中只需要包含没有在LICENSE中申明的第三方声明。 Only required third party notices not listed in LICENSE need to be included in NOTICE."
       },
       {
-        "answer": "A link to the original software if the third party license requires that.",
+        "answer": "如果第三方协议要求，需要提供一个原始软件的链接。 A link to the original software if the third party license requires that.",
         "correct": true,
         "level": 3,
-        "hint": "Only required third party notices not listed in LICENSE need to be included in NOTICE."
+        "hint": "NOTICE中只需要包含没有在LICENSE中申明的第三方声明。Only required third party notices not listed in LICENSE need to be included in NOTICE."
       }
     ],
-    "reason": "Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
+    "reason": "选择一个最自由的协议，并使用它。不要包含禁止使用协议软件。Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
     "links": [
       {
         "name": "Required notices",
