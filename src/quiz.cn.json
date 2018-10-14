@@ -1,0 +1,1040 @@
+[
+  {
+    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足哪些条件:",
+    "category": "release policy",
+    "show": "4",
+    "answers": [
+      {
+        "answer": "3个或更多的+1票",
+        "correct": false,
+        "level": 2,
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+      },
+      {
+        "answer": "+1票数要多过-1票数",
+        "correct": false,
+        "level": 2,
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+      },
+      {
+        "answer": "3个或更多的+1票，并且+1票数要多过-1票数",
+        "correct": true,
+        "level": 1,
+        "hint": "Apache 发布使用多数批准投票，你需要得到3个或更多+1票，并且+1票数要多过-1票数。"
+      },
+      {
+        "answer": "一个-1票会停止投票",
+        "correct": false,
+        "level": 1,
+        "hint": "发布不能被否决"
+      },
+      {
+        "answer": "普通用户的投票是有效的(binding)并被累计",
+        "correct": false,
+        "level": 1,
+        "hint": "只有 PMC 成员的投票是有效的"
+      },
+      {
+        "answer": "Committer的投票是有效的(binding)并被累计",
+        "correct": false,
+        "level": 2,
+        "hint": "只有 PMC 成员的投票是有效的"
+      },
+      {
+        "answer": "PMC 成员的投票是有效的(binding)并被累计",
+        "correct": true,
+        "level": 1,
+        "hint": "只有 PMC 成员的投票是有效的"
+      },
+      {
+        "answer": "一旦得到3个+1票，就算通过",
+        "correct": false,
+        "level": 2,
+        "hint": "你需要留出足够的时间让每个人投票"
+      },
+      {
+        "answer": "投票应至少开放72小时",
+        "correct": true,
+        "level": 1,
+        "hint": "你需要留出足够的时间让每个人投票"
+      }
+    ],
+    "reason": "Release 使用多数批准投票（即至少3个 + 1票和+1票多于-1票），投票应开放72小时，以便每个人都有机会投票。",
+    "links": [
+      {
+        "name": "Release Approval",
+        "link": "http://www.apache.org/legal/release-policy.html#release-approval"
+      },
+      {
+        "name": "Release Votes",
+        "link": "https://www.apache.org/foundation/voting.html#ReleaseVotes"
+      },
+      {
+        "name": "Approving a release",
+        "link": "http://www.apache.org/legal/release-policy.html#approving-a-release"
+      }
+    ]
+  },
+  {
+    "question": "对于 release，PMC（项目管理委员会）必须:",
+    "category": "release policy",
+    "show": "4",
+    "answers": [
+      {
+        "answer": "发布正式（official） release.",
+        "correct": true,
+        "level": 1,
+        "hint": "只有通过正式投票的 release 才是被允许的。"
+      },
+      {
+        "answer": "引导用户到快照 release。",
+        "correct": false,
+        "level": 2,
+        "hint": "用户应该被引导到官方 release。"
+      },
+      {
+        "answer": "引导用户到每日构建(nightly build)",
+        "correct": false,
+        "level": 2,
+        "hint": "用户应该被引导到官方 release。"
+      },
+      {
+        "answer": "从下载页链接到每日构建",
+        "correct": false,
+        "level": 2,
+        "hint": "用户应该被引导到官方 release。"
+      },
+      {
+        "answer": "发布 maven 工件。",
+        "correct": false,
+        "level": 2,
+        "hint": "Maven只是备用分发机制。"
+      },
+      {
+        "answer": "提供二进制发布版本。",
+        "correct": false,
+        "level": 1,
+        "hint": "Apache 发布开源代码，二进制版本仅为方便使用而提供。"
+      }
+    ],
+    "reason": "Apache 发布源代码版本，用户只能被引导到已经通过投票的官方版本。",
+    "links": [
+      {
+        "name": "Publication",
+        "link": "http://www.apache.org/legal/release-policy.html#publication"
+      },
+      {
+        "name": "What is a release?",
+        "link": "http://www.apache.org/legal/release-policy.html#what"
+      }
+    ]
+  },
+  {
+    "question": "Each ASF release must contain:",
+    "category": "release policy",
+    "show": "4",
+    "answers": [
+      {
+        "answer": "A LICENSE file.",
+        "correct": true,
+        "level": 1,
+        "hint": "Each release must contain the full text of the Apache License 2.0."
+      },
+      {
+        "answer": "A NOTICE file",
+        "correct": true,
+        "level": 1,
+        "hint": "A NOTICE file is required by ASF policy. 3rd party licensed ALv2 software do not require a NOTICE file."
+      },
+      {
+        "answer": "All licenses (except 3rd party Apache V2 licensed software) of bundled software must be mentioned in LICENSE.",
+        "correct": true,
+        "level": 2,
+        "hint": "Any users of the release need to know all of the license terms and it's best to keep that in one place."
+      },
+      {
+        "answer": "All licenses (except 3rd party Apache V2 licensed) of dependencies must be mentioned in LICENSE.",
+        "correct": false,
+        "level": 2,
+        "hint": "Only 3rd party bundled software should be mentioned in LICENSE and NOTICE."
+      },
+      {
+        "answer": "List all ALv2 license software in LICENSE contained within the release.",
+        "correct": false,
+        "level": 2,
+        "hint": "While it's a good idea to list all Apache licensed software bundled in a release it's not required."
+      },
+      {
+        "answer": "For each ALv2 license software contained within the release include the full text of each in LICENSE.",
+        "correct": false,
+        "level": 3,
+        "hint": "The full text of the ALv2 is only needed to be included once even if you have multiple ALv2 bits of software bundled in your release."
+      },
+      {
+        "answer": "The LICENSE and NOTICE files can be anywhere in the release.",
+        "correct": false,
+        "level": 2,
+        "hint": "The LICENSE and NOTICE files must be in the root of the release."
+      },
+      {
+        "answer": "Extra informational material can be provided in LICENSE and NOTICE.",
+        "correct": false,
+        "level": 2,
+        "hint": "Only required information about bundled software is required."
+      },
+      {
+        "answer": "Information about dependencies can be provided in LICENSE.",
+        "correct": false,
+        "level": 1,
+        "hint": "Only information about what licensed software is bundled needs to be included in LICENSE or NOTICE."
+      },
+      {
+        "answer": "For any bundled software the full text of it's license must be included.",
+        "correct": true,
+        "level": 1,
+        "hint": "License information needs to be listed in LICENSE. You can also use pointers to licence information."
+      },
+      {
+        "answer": "A URL to the license(s) of bundled software can be included in LICENSE.",
+        "correct": false,
+        "level": 3,
+        "hint": "A pointer needs to point to a local file containing the full text of the license."
+      },
+      {
+        "answer": "All ASF source files have ASF headers.",
+        "correct": true,
+        "level": 1,
+        "hint": "All source files must have the ASF header unless they are under another license."
+      },
+      {
+        "answer": "A DEPENDENCIES file.",
+        "correct": false,
+        "level": 2,
+        "hint": "A DEPENDENCIES file is not required by ASF policy. However it is helpful to include one."
+      },
+      {
+        "answer": "jar files",
+        "level": 1,
+        "correct": false,
+        "hint": "Apache releases source code and a source release can't contain any compiled code."
+      }
+
+    ],
+    "reason": "A release should contain a LICENSE and NOTICE file and only required information be placed in LICENSE and NOTICE. The LICENSE file should list all bundled software licenses, but may omit ALv2 ones.",
+    "links": [
+      {
+        "name": "Licensing Documentation",
+        "link": "http://www.apache.org/legal/release-policy.html#licensing-documentation"
+      }
+    ]
+  },
+  {
+    "question": "The ASF has a release policy because:",
+    "show": "4",
+    "category": "release policy",
+    "answers": [
+      {
+        "answer": "It provides legal protection for people involved in the release.",
+        "correct": true,
+        "level": 2,
+        "hint": "To provide legal protection there needs to be a distinction between in progress work and released work."
+      },
+      {
+        "answer": "Apache loves bureaucracy.",
+        "correct": false,
+        "level": 1,
+        "hint": "Apache tries to keep bureaucracy to a minimum but some is required for legal protection and openness."
+      },
+      {
+        "answer": "To reduce the cost of legal protection.",
+        "correct": true,
+        "level": 2,
+        "hint": "Not following policy may lessen on the legal protection provided or raise insurance premiums."
+      },
+      {
+        "answer": "To encourage community participation.",
+        "correct": true,
+        "level": 2,
+        "hint": "Having a ceremony around releases encourages participation."
+      },
+      {
+        "answer": "So that the builds are easily reproducible.",
+        "correct": true,
+        "level": 1,
+        "hint": "If an issue is found with a build you may need to recreate the release or fix the issue and make a new release."
+      },
+      {
+        "answer": "To keep a history of all decisions and changes.",
+        "correct": true,
+        "level": 1,
+        "hint": ""
+      },
+      {
+        "answer": "To have an open process visible by anyone.",
+        "correct": true,
+        "level": 1,
+        "hint": "Apache produces open source software in the open."
+      },
+      {
+        "answer": "To get around some software licenses clauses.",
+        "correct": false,
+        "level": 2,
+        "hint": "All release must comply with Apache legal policy and any contained 3rd party licenses."
+      },
+      {
+        "answer": "As a barrier to quickly making software releases.",
+        "correct": false,
+        "level": 1,
+        "hint": "Make releases and make them often they way they are easier to review."
+      },
+      {
+        "answer": "Apache loves complexity.",
+        "correct": false,
+        "level": 1,
+        "hint": "Is best to keep the release process simple so it can be easily performed by others."
+      }
+    ],
+    "reason": "The release policy exists to provide legal protection to those making the release.",
+    "links": [
+      {
+        "name": "Why do we need a foundation wide policy?",
+        "link": "http://www.apache.org/legal/release-policy.html#why"
+      }
+    ]
+  },
+  {
+    "question": "Before voting on a release a PMC member must:",
+    "show": "4",
+    "category": "release policy",
+    "answers": [
+      {
+        "answer": "Check that the release candidate complies with ASF legal policy.",
+        "correct": true,
+        "level": 1,
+        "hint": "A release needs to comply with ASF policy."
+      },
+      {
+        "answer": "Check that the release candidate complies with ASF release policy.",
+        "correct": true,
+        "level": 1,
+        "hint": "A release needs to comply with ASF policy."
+      },
+      {
+        "answer": "Check that the release is signed by a valid signatures.",
+        "correct": true,
+        "level": 1,
+        "hint": "All release must have a valid signature, otherwise they could be modified and contain anything."
+      },
+      {
+        "answer": "Ensure that the LICENSE and NOTICE files are present.",
+        "correct": true,
+        "level": 1,
+        "hint": "ASF policy requires both a LICENSE and NOTICE file."
+      },
+      {
+        "answer": "Check that they can compile the release.",
+        "correct": true,
+        "level": 1,
+        "hint": "What's the point of a source release if you can't compile it?"
+      },
+      {
+        "answer": "Test the compiled version on their own machine.",
+        "correct": true,
+        "level": 2,
+        "hint": "Release should be tested to ensure that they work. This doesn't mean they are totally bug free."
+      },
+      {
+        "answer": "Check what in the release matches to what is in version control.",
+        "correct": true,
+        "level": 2,
+        "hint": "Releases need to be reproducible."
+      },
+      {
+        "answer": "Check there are no outstanding bugs.",
+        "correct": false,
+        "level": 2,
+        "hint": "All software has bugs. The aim is for each release to be better than the last."
+      },
+      {
+        "answer": "Check that the documentation is up to date",
+        "correct": false,
+        "level": 2,
+        "hint": "While documentation is helpful it's not required before voting."
+      },
+      {
+        "answer": "That all test pass.",
+        "level": 2,
+        "correct": false,
+        "hint": "A failing test probably indicates a problem but all tests passing is not a requirment for voting."
+      }
+    ],
+    "reason": "Before voting a PMC member should check that the release is correctly signed, complies with ASF policy, contains a LICENSE and NOTICE file, can be compiled from source and generally works.",
+    "links": [
+      {
+        "name": "Release Requirements",
+        "link": "http://www.apache.org/legal/release-policy.html#approving-a-release"
+      },
+      {
+        "name": "Owned and Controlled Hardware",
+        "link": "http://www.apache.org/legal/release-policy.html#owned-controlled-hardware"
+      }
+    ]
+  },
+  {
+    "question": "Once a new version of the project has been released, what must the PMC do?",
+    "show": "4",
+    "category": "release policy",
+    "answers": [
+      {
+        "answer": "Place the artifacts in www.apache.org/dist.",
+        "correct": true,
+        "level": 1,
+        "hint": "This is thw official place for releases and the place they are mirrored from."
+      },
+      {
+        "answer": "Publish maven artifacts.",
+        "correct": false,
+        "level": 2,
+        "hint": "Maven is a secondary distribution mechanism."
+      },
+      {
+        "answer": "Announce the release to the users, dev and announce mailing lists.",
+        "correct": true,
+        "level": 1,
+        "hint": "It's a good idea to tell people about new releases."
+      },
+      {
+        "answer": "Manually archive the previous release.",
+        "correct": false,
+        "level": 2,
+        "hint": "Old releases are archived automatically."
+      },
+      {
+        "answer": "It's best to wait 24 hours before announcing to allow the release to be copied to the mirrors.",
+        "correct": true,
+        "level": 1,
+        "hint": "It may talk a little while for thr mirrors to catch up."
+      }
+    ],
+    "reason": "Releases need to published in the correct place (to be mirrored) and you need to tell people about them.",
+    "links": [
+      {
+        "name": "Release distribution",
+        "link": "http://www.apache.org/legal/release-policy.html#release-distribution"
+      },
+      {
+        "name": "Where do releases go?",
+        "link": "http://www.apache.org/legal/release-policy.html#where-do-releases-go"
+      },
+      {
+        "name": "Announcing releases",
+        "link": "http://www.apache.org/legal/release-policy.html#release-announcements"
+      },
+      {
+        "name": "How are releases archived?",
+        "link": "http://www.apache.org/legal/release-policy.html#archived"
+      }
+    ]
+  },
+  {
+    "question": "Which licenses are compatible and similar in terms with the Apache License 2.0?",
+    "show": "6",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Apache software License 1.0.",
+        "correct": false,
+        "level": 2,
+        "hint": "The Apache Software License 1.0 contains an advertising clause."
+      },
+      {
+        "answer": "Apache software License 1.1.",
+        "correct": true,
+        "level": 1,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "BSD 2-clause.",
+        "correct": true,
+        "level": 1,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "BSD 3-clause.",
+        "correct": true,
+        "level": 1,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "BSD with advertising clause.",
+        "correct": false,
+        "level": 2,
+        "hint": "Advertising clauses are not compatible with the Apache License 2.0"
+      },
+      {
+        "answer": "MIT or X11 license.",
+        "correct": true,
+        "level": 1,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "W3C software license.",
+        "correct": true,
+        "level": 2,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "GNU GPL 1, 2, 3.",
+        "correct": false,
+        "level": 1,
+        "hint": "Derivative works of GPL licensed software must be license under the GPL license."
+      },
+      {
+        "answer": "GNU LGPL 2, 2.1, 3.",
+        "correct": false,
+        "level": 1,
+        "hint": "Derivative works of GPL licensed software must be license under the GPL license."
+      },
+      {
+        "answer": "JSON license.",
+        "correct": false,
+        "level": 2,
+        "hint": "Good and evil are subjective."
+      },
+      {
+        "answer": "Creative Commons Attribution (CC-BY) 2.5, 3.0, and 4.0.",
+        "correct": false,
+        "level": 2,
+        "hint": "Category B licenses need to be handle carefully."
+      },
+      {
+        "answer": "Creative Commons Non-Commercial.",
+        "correct": false,
+        "level": 2,
+        "hint": "Only for non commercial use is a restriction."
+      },
+      {
+        "answer": "Creative Commons Copyright-Only Dedication.",
+        "correct": true,
+        "level": 2,
+        "hint": "A license which adds no restrictions is compatible."
+      },
+      {
+        "answer": "Eclipse Public License EPL 1.0.",
+        "correct": false,
+        "level": 2,
+        "hint": "Category B licenses need to be handled carefully."
+      },
+      {
+        "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
+        "correct": false,
+        "level": 2,
+        "hint": "Category B licenses need to be handled carefully."
+      },
+      {
+        "answer": "Works in the public domain.",
+        "correct": true,
+        "level": 1,
+        "hint": "A license which adds no restrictions is compatible."
+      }
+    ],
+    "reason": "License that do not add any additional restrictions than the Apache License 2.0 are compatible.",
+    "links": [
+      {
+        "name": "Compatible licenses",
+        "link": "https://www.apache.org/legal/resolved.html#category-a"
+      },
+      {
+        "name": "Excluded licenses",
+        "link": "https://www.apache.org/legal/resolved.html#category-x"
+      },
+      {
+        "name": "Weak Copyleft licenses",
+        "link": "https://www.apache.org/legal/resolved.html#category-b"
+      },
+      {
+        "name": "GPL Compatibility",
+        "link": "http://www.apache.org/licenses/GPL-compatibility.html"
+      }
+    ]
+  },
+  {
+    "question": "Can Apache distribute products under a prohibited ('Category X') license?",
+    "show": "2",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Yes for any Category X bundled software.",
+        "correct": false,
+        "level": 1,
+        "hint": "Prohibited licensed software can not be distributed."
+      },
+      {
+        "answer": "No (with a couple of rare exceptions).",
+        "correct": true,
+        "level": 1,
+        "hint": "Prohibited licensed software can not be distributed."
+      },
+      {
+        "answer": "Yes but only for some common build tools.",
+        "correct": true,
+        "level": 3,
+        "hint": "Some prohibited licensed build tool software can be distributed."
+      }
+    ],
+    "reason": "Prohibited licensed software can not be distributed.",
+    "links": [
+      {
+        "name": "Prohibited distribution",
+        "link": "https://www.apache.org/legal/resolved.html#prohibited"
+      },
+      {
+        "name": "Build tools",
+        "link": "https://www.apache.org/legal/resolved.html#build-tools"
+      }
+    ]
+  },
+  {
+    "question": "Can Apache rely on products under a prohibited ('Category X') license?",
+    "show": "2",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Yes for all dependencies.",
+        "correct": false,
+        "level": 1,
+        "hint": "Prohibited licensed software can not be an external dependency."
+      },
+      {
+        "answer": "No.",
+        "correct": true,
+        "level": 1,
+        "hint": "Prohibited licensed software can not be an external dependency."
+      },
+      {
+        "answer": "Only if it's an optional dependency.",
+        "correct": true,
+        "level": 2,
+        "hint": "Do the majority of the users need this optional component?"
+      }
+    ],
+    "reason": "Prohibited licensed software can not be distributed but you can rely on optional dependencies.",
+    "links": [
+      {
+        "name": "Optional dependency",
+        "link": "https://www.apache.org/legal/resolved.html#optional"
+      }
+    ]
+  },
+  {
+    "question": "If a third party bundled bit of software is dual licensed what do you do?",
+    "show": "4",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Include both licenses in LICENSE.",
+        "correct": false,
+        "level": 2,
+        "hint": "Select the most permissive license and use that."
+      },
+      {
+        "answer": "Toss a coin and put one license in LICENSE.",
+        "correct": true,
+        "level": 2,
+        "hint": "Select the most permissive license and use that."
+      },
+      {
+        "answer": "Put a note in NOTICE about this.",
+        "correct": false,
+        "level": 2,
+        "hint": "Only required information should go in NOTICE"
+      },
+      {
+        "answer": "Select the most permissive license and put that in LICENSE.",
+        "correct": true,
+        "level": 2,
+        "hint": "Select the most permissive license and use that."
+      },
+      {
+        "answer": "Prefer a Category A license over a Category B license over a Category X license and include that.",
+        "correct": true,
+        "level": 1,
+        "hint": "Select the most permissive license and use that."
+      },
+      {
+        "answer": "Nothing is required to be done.",
+        "correct": false,
+        "level": 2,
+        "hint": "Select the most permissive license and use that."
+      }
+    ],
+    "reason": "Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
+    "links": [
+      {
+        "name": "Mutually exclusive",
+        "link": "https://www.apache.org/legal/resolved.html#mutually-exclusive"
+      }
+    ]
+  },
+  {
+    "question": "What are required third party notices?",
+    "show": "4",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Nobody knows.",
+        "correct": false,
+        "level": 2,
+        "hint": "Well it sometimes seems that way. Any required notice that is not in LICENSE Should go in NOTICE."
+      },
+      {
+        "answer": "Third party copyright notices.",
+        "correct": false,
+        "level": 2,
+        "hint": "Copyrights usually go in LICENSE. The exceptions are relocated copyrights and copyrights from 3rd party Apache license v2 NOTICE files."
+      },
+      {
+        "answer": "License terms.",
+        "correct": false,
+        "level": 1,
+        "hint": "License terms should be listed in LICENSE. Only required information should go in NOTICE."
+      },
+      {
+        "answer": "list of licenses.",
+        "correct": false,
+        "level": 1,
+        "hint": "Licenses should be listed in LICENSE. Only required information should go in NOTICE."
+      },
+      {
+        "answer": "A list of all changes to software when the third party software requires that.",
+        "correct": true,
+        "level": 3,
+        "hint": "Only required third party notices not listed in LICENSE need to be included in NOTICE."
+      },
+      {
+        "answer": "A link to the original software if the third party license requires that.",
+        "correct": true,
+        "level": 3,
+        "hint": "Only required third party notices not listed in LICENSE need to be included in NOTICE."
+      }
+    ],
+    "reason": "Select the most permissive license and use that. Prohibited licensed software can not be distributed.",
+    "links": [
+      {
+        "name": "Required notices",
+        "link": "https://www.apache.org/legal/resolved.html#required-third-party-notices"
+      }
+    ]
+  },
+  {
+    "question": "Which third party licenses need to be listed in LICENSE when bundled?",
+    "show": "6",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Apache software License 1.0.",
+        "correct": false,
+        "level": 2,
+        "hint": "The Apache Software License 1.0 contains an advertising clause and is not compatible."
+      },
+      {
+        "answer": "Apache software License 1.1.",
+        "correct": true,
+        "level": 1,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "Apache software License 2.0.",
+        "correct": false,
+        "level": 1,
+        "hint": "The text of the Apache license is already included there's no need to include it twice."
+      },
+      {
+        "answer": "BSD 2-clause.",
+        "correct": true,
+        "level": 1,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "BSD 3-clause.",
+        "correct": true,
+        "level": 1,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "MIT or X11 license.",
+        "correct": true,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "W3C software license.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "GNU GPL 1, 2, 3.",
+        "correct": false,
+        "level": 1,
+        "hint": "The GPL license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "GNU LGPL 2, 2.1, 3",
+        "correct": false,
+        "level": 1,
+        "hint": "The GPL license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "JSON license.",
+        "correct": false,
+        "level": 2,
+        "hint": "The JSON license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "Creative Commons Attribution (CC-BY) 2.5, 3.0, and 4.0.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "Creative Commons Non-Commercial.",
+        "correct": false,
+        "level": 1,
+        "hint": "Licenses with non-commercial clasuses are not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "Creative Commons Copyright-Only Dedication.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "Eclipse Public License EPL 1.0.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      },
+      {
+        "answer": "Works in the public domain.",
+        "correct": true,
+        "level": 2,
+        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+      }
+    ],
+    "reason": "All licenses (or a pointer to the license text) need to be listed in LICENSE.",
+    "links": [
+      {
+        "name": "Assembling LICENSE and NOTICE",
+        "link": "http://www.apache.org/dev/licensing-howto.html"
+      },
+      {
+        "name": "Excluded licenses",
+        "link": "https://www.apache.org/legal/resolved.html#category-x"
+      },
+      {
+        "name": "GPL Compatibility",
+        "link": "http://www.apache.org/licenses/GPL-compatibility.html"
+      }
+    ]
+  },
+  {
+    "question": "Which third party software licenses will likely cause NOTICE to be modified when bundled?",
+    "show": "6",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "Apache software License 2.0 without a NOTICE file.",
+        "correct": false,
+        "level": 2,
+        "hint": "With no NOTICE file it's unlikely anything needs to be included in NOTICE."
+      },
+      {
+        "answer": "Apache software License 2.0 with a NOTICE file.",
+        "correct": true,
+        "level": 2,
+        "hint": "Even for boilerplate NOTICE file the copyright line needs to be considered."
+      },
+      {
+        "answer": "BSD 2-clause.",
+        "correct": false,
+        "level": 1,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "BSD 3-clause.",
+        "correct": false,
+        "level": 1,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "MIT or X11 license.",
+        "correct": false,
+        "level": 1,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "W3C software license.",
+        "correct": false,
+        "level": 2,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "GNU GPL 1, 2, 3.",
+        "correct": false,
+        "level": 1,
+        "hint": "The GPL license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "GNU LGPL 2, 2.1, 3.",
+        "correct": false,
+        "level": 1,
+        "hint": "The GPL license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "JSON license.",
+        "correct": false,
+        "level": 2,
+        "hint": "The JSON license is not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "Creative Commons Attribution (CC-BY) 2.5, 3.0, and 4.0.",
+        "correct": false,
+        "level": 2,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "Creative Commons Non-Commercial.",
+        "correct": false,
+        "level": 1,
+        "hint": "Licenses with non-commercial clauses are not compatible with the Apache License 2.0."
+      },
+      {
+        "answer": "Creative Commons Copyright-Only Dedication.",
+        "correct": false,
+        "level": 2,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      },
+      {
+        "answer": "Eclipse Public License EPL 1.0.",
+        "correct": true,
+        "level": 2,
+        "hint": "Instructions on how to obtain the source code needs to be provided."
+      },
+      {
+        "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
+        "correct": true,
+        "level": 2,
+        "hint": "License requires a ist of modifications and who the contributors were."
+      },
+      {
+        "answer": "Works in the public domain.",
+        "correct": false,
+        "level": 2,
+        "hint": "You add the license text to LICENSE not NOTICE."
+      }
+    ],
+    "reason": "NOTICE only contains ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
+    "links": [
+      {
+        "name": "Assembling LICENSE and NOTICE",
+        "link": "http://www.apache.org/dev/licensing-howto.html"
+      },
+      {
+        "name": "Required notices",
+        "link": "https://www.apache.org/legal/resolved.html#required-third-party-notices"
+      },
+      {
+        "name": "Excluded licenses",
+        "link": "https://www.apache.org/legal/resolved.html#category-x"
+      },
+      {
+        "name": "GPL Compatibility",
+        "link": "http://www.apache.org/licenses/GPL-compatibility.html"
+      }
+    ]
+  },
+  {
+    "question": "An ASF project's NOTICE file should contain:",
+    "show": "4",
+    "category": "licensing",
+    "answers": [
+      {
+        "answer": "The project name.",
+        "correct": true,
+        "level": 1,
+        "hint": ""
+      },
+      {
+        "answer": "The ASF copyright line.",
+        "correct": true,
+        "level": 1,
+        "hint": ""
+      },
+      {
+        "answer": "A ist of bundled licenses.",
+        "correct": false,
+        "level": 1,
+        "hint": "Licenses need to be listed in LICENSE not NOTICE."
+      },
+      {
+        "answer": "Relocated copyright statements",
+        "correct": true,
+        "level": 2,
+        "hint": "The copyright owner of the original software if it was donated via a software grant."
+      },
+      {
+        "answer": "Copyright lines from 3rd party licenses",
+        "correct": false,
+        "level": 2,
+        "hint": "These are usually included in LICENSE by including the text of the LICENSE."
+      },
+      {
+        "answer": "Contents from bundled Apache licensed 2.0 NOTICE file",
+        "correct": true,
+        "level": 2,
+        "hint": "Contents of any Apache licensed 2.0 NOTICE file in bundled software needs to be propagated to the NOTICE file."
+      },
+      {
+        "answer": "Any required 3rd party notices",
+        "correct": true,
+        "level": 2,
+        "hint": "3rd party required notices are listed in NOTICE. This is usually rare."
+      },
+      {
+        "answer": "A list of dependencies",
+        "correct": false,
+        "level": 1,
+        "hint": "Dependencies do not need to be listed in LICENSE or NOTICE."
+      },
+      {
+        "answer": "A line with: This product includes software developed at The Apache Software Foundation (http://www.apache.org/).",
+        "correct": true,
+        "level": 1,
+        "hint": "Software is developed at the Apache Software Foundation."
+      },
+      {
+         "answer": "A line with: This product includes software developed by The Apache Software Foundation (http://www.apache.org/).",
+         "correct": false,
+        "level": 2,
+         "hint": "Software is developed at the Apache Software Foundation."
+       }
+    ],
+    "reason": "NOTICE only contains the project name, ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
+    "links": [
+      {
+        "name": "Assembling LICENSE and NOTICE",
+        "link": "http://www.apache.org/dev/licensing-howto.html"
+      },
+      {
+        "name": "Required notices",
+        "link": "https://www.apache.org/legal/resolved.html#required-third-party-notices"
+      }
+    ]
+  }
+]
