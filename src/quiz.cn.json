@@ -727,7 +727,7 @@
     ]
   },
   {
-    "question": "Which third party licenses need to be listed in LICENSE when bundled?",
+    "question": "绑定时，哪些第三方许可需要在 LICENSE 中列出？ Which third party licenses need to be listed in LICENSE when bundled?",
     "show": "6",
     "category": "licensing",
     "answers": [
@@ -735,99 +735,99 @@
         "answer": "Apache software License 1.0.",
         "correct": false,
         "level": 2,
-        "hint": "The Apache Software License 1.0 contains an advertising clause and is not compatible."
+        "hint": "Apache Software License 1.0 包含了广告条款且不兼容。The Apache Software License 1.0 contains an advertising clause and is not compatible."
       },
       {
         "answer": "Apache software License 1.1.",
         "correct": true,
         "level": 1,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "Apache software License 2.0.",
         "correct": false,
         "level": 1,
-        "hint": "The text of the Apache license is already included there's no need to include it twice."
+        "hint": "Apache 许可的文本已包含，不需要包含它两次。The text of the Apache license is already included there's no need to include it twice."
       },
       {
         "answer": "BSD 2-clause.",
         "correct": true,
         "level": 1,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "BSD 3-clause.",
         "correct": true,
         "level": 1,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "MIT or X11 license.",
         "correct": true,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "W3C software license.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "GNU GPL 1, 2, 3.",
         "correct": false,
         "level": 1,
-        "hint": "The GPL license is not compatible with the Apache License 2.0."
+        "hint": "GPL 许可与 Apache License 2.0 不兼容。The GPL license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "GNU LGPL 2, 2.1, 3",
         "correct": false,
         "level": 1,
-        "hint": "The GPL license is not compatible with the Apache License 2.0."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。The GPL license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "JSON license.",
         "correct": false,
         "level": 2,
-        "hint": "The JSON license is not compatible with the Apache License 2.0."
+        "hint": "JSON 许可与 Apache License 2.0 不兼容。The JSON license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "Creative Commons Attribution (CC-BY) 2.5, 3.0, and 4.0.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "Creative Commons Non-Commercial.",
         "correct": false,
         "level": 1,
-        "hint": "Licenses with non-commercial clasuses are not compatible with the Apache License 2.0."
+        "hint": "具有非商业条款的许可与 Apache License 2.0 不兼容。Licenses with non-commercial clauses are not compatible with the Apache License 2.0."
       },
       {
         "answer": "Creative Commons Copyright-Only Dedication.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "Eclipse Public License EPL 1.0.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
         "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       },
       {
-        "answer": "Works in the public domain.",
+        "answer": "适用于公共领域。Works in the public domain.",
         "correct": true,
         "level": 2,
-        "hint": "All licenses (or a pointer to the license text) need to be listed in LICENSE."
+        "hint": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE."
       }
     ],
-    "reason": "All licenses (or a pointer to the license text) need to be listed in LICENSE.",
+    "reason": "所有的许可（或指向许可文本的指针）都需要在 LICENSE 中列出。All licenses (or a pointer to the license text) need to be listed in LICENSE.",
     "links": [
       {
         "name": "Assembling LICENSE and NOTICE",
@@ -844,7 +844,7 @@
     ]
   },
   {
-    "question": "Which third party software licenses will likely cause NOTICE to be modified when bundled?",
+    "question": "绑定时，哪些第三方软件许可可能会导致 NOTICE 的修改？ Which third party software licenses will likely cause NOTICE to be modified when bundled?",
     "show": "6",
     "category": "licensing",
     "answers": [
@@ -852,94 +852,94 @@
         "answer": "Apache software License 2.0 without a NOTICE file.",
         "correct": false,
         "level": 2,
-        "hint": "With no NOTICE file it's unlikely anything needs to be included in NOTICE."
+        "hint": "如果没有 NOTICE 文件，则 NOTICE 中不必包含任何内容。With no NOTICE file it's unlikely anything needs to be included in NOTICE."
       },
       {
         "answer": "Apache software License 2.0 with a NOTICE file.",
         "correct": true,
         "level": 2,
-        "hint": "Even for boilerplate NOTICE file the copyright line needs to be considered."
+        "hint": "即使是样板 NOTICE 文件，也需要考虑版权信息。Even for boilerplate NOTICE file the copyright line needs to be considered."
       },
       {
         "answer": "BSD 2-clause.",
         "correct": false,
         "level": 1,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "BSD 3-clause.",
         "correct": false,
         "level": 1,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "MIT or X11 license.",
         "correct": false,
         "level": 1,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "W3C software license.",
         "correct": false,
         "level": 2,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "GNU GPL 1, 2, 3.",
         "correct": false,
         "level": 1,
-        "hint": "The GPL license is not compatible with the Apache License 2.0."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。The GPL license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "GNU LGPL 2, 2.1, 3.",
         "correct": false,
         "level": 1,
-        "hint": "The GPL license is not compatible with the Apache License 2.0."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。The GPL license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "JSON license.",
         "correct": false,
         "level": 2,
-        "hint": "The JSON license is not compatible with the Apache License 2.0."
+        "hint": "JSON 许可与 Apache License 2.0 不兼容。The JSON license is not compatible with the Apache License 2.0."
       },
       {
         "answer": "Creative Commons Attribution (CC-BY) 2.5, 3.0, and 4.0.",
         "correct": false,
         "level": 2,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "Creative Commons Non-Commercial.",
         "correct": false,
         "level": 1,
-        "hint": "Licenses with non-commercial clauses are not compatible with the Apache License 2.0."
+        "hint": "具有非商业条款的许可与 Apache License 2.0 不兼容。Licenses with non-commercial clauses are not compatible with the Apache License 2.0."
       },
       {
         "answer": "Creative Commons Copyright-Only Dedication.",
         "correct": false,
         "level": 2,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       },
       {
         "answer": "Eclipse Public License EPL 1.0.",
         "correct": true,
         "level": 2,
-        "hint": "Instructions on how to obtain the source code needs to be provided."
+        "hint": "需要提供有关如何获取源代码的说明。Instructions on how to obtain the source code needs to be provided."
       },
       {
         "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
         "correct": true,
         "level": 2,
-        "hint": "License requires a ist of modifications and who the contributors were."
+        "hint": "许可需要一份修改清单和贡献者名单。License requires a list of modifications and who the contributors were."
       },
       {
         "answer": "Works in the public domain.",
         "correct": false,
         "level": 2,
-        "hint": "You add the license text to LICENSE not NOTICE."
+        "hint": "您需要将许可文本添加到 LICENSE 而不是 NOTICE。You add the license text to LICENSE not NOTICE."
       }
     ],
-    "reason": "NOTICE only contains ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
+    "reason": "NOTICE 仅包含 ASF 版权，重新定位的版权声明，绑定软件的 NOTICE 文件的内容和所需的第三方声明。NOTICE only contains ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
     "links": [
       {
         "name": "Assembling LICENSE and NOTICE",
@@ -960,72 +960,72 @@
     ]
   },
   {
-    "question": "An ASF project's NOTICE file should contain:",
+    "question": "ASF 项目的 NOTICE 文件应包含哪些内容？An ASF project's NOTICE file should contain?",
     "show": "4",
     "category": "licensing",
     "answers": [
       {
-        "answer": "The project name.",
+        "answer": "项目名。The project name.",
         "correct": true,
         "level": 1,
         "hint": ""
       },
       {
-        "answer": "The ASF copyright line.",
+        "answer": "ASF 版权信息。The ASF copyright line.",
         "correct": true,
         "level": 1,
         "hint": ""
       },
       {
-        "answer": "A ist of bundled licenses.",
+        "answer": "绑定的许可列表。A list of bundled licenses.",
         "correct": false,
         "level": 1,
-        "hint": "Licenses need to be listed in LICENSE not NOTICE."
+        "hint": "许可需要在 LICENSE 而不是 NOTICE 中列出。Licenses need to be listed in LICENSE not NOTICE."
       },
       {
-        "answer": "Relocated copyright statements",
+        "answer": "重新定位的版权声明。Relocated copyright statements",
         "correct": true,
         "level": 2,
-        "hint": "The copyright owner of the original software if it was donated via a software grant."
+        "hint": "如果是通过软件授权捐赠的，需要原始软件的版权所有者。The copyright owner of the original software if it was donated via a software grant."
       },
       {
-        "answer": "Copyright lines from 3rd party licenses",
+        "answer": "来自第三方许可的版权信息。Copyright lines from 3rd party licenses",
         "correct": false,
         "level": 2,
-        "hint": "These are usually included in LICENSE by including the text of the LICENSE."
+        "hint": "这些通常包含在 LICENSE 中，包括 LICENSE 的文本。These are usually included in LICENSE by including the text of the LICENSE."
       },
       {
-        "answer": "Contents from bundled Apache licensed 2.0 NOTICE file",
+        "answer": "绑定的 Apache licensed 2.0 NOTICE 文件的内容。Contents from bundled Apache licensed 2.0 NOTICE file",
         "correct": true,
         "level": 2,
-        "hint": "Contents of any Apache licensed 2.0 NOTICE file in bundled software needs to be propagated to the NOTICE file."
+        "hint": "绑定软件中任何 Apache licensed 2.0 NOTICE 文件的内容都需要传播到 NOTICE 文件。Contents of any Apache licensed 2.0 NOTICE file in bundled software needs to be propagated to the NOTICE file."
       },
       {
-        "answer": "Any required 3rd party notices",
+        "answer": "任何需要的第三方通告。Any required 3rd party notices",
         "correct": true,
         "level": 2,
-        "hint": "3rd party required notices are listed in NOTICE. This is usually rare."
+        "hint": "通常很少见，第三方要求的通告在 NOTICE 中列出。3rd party required notices are listed in NOTICE. This is usually rare."
       },
       {
-        "answer": "A list of dependencies",
+        "answer": "依赖项列表。A list of dependencies",
         "correct": false,
         "level": 1,
-        "hint": "Dependencies do not need to be listed in LICENSE or NOTICE."
+        "hint": "依赖关系不需要在 LICENSE 或 NOTICE 中列出。Dependencies do not need to be listed in LICENSE or NOTICE."
       },
       {
-        "answer": "A line with: This product includes software developed at The Apache Software Foundation (http://www.apache.org/).",
+        "answer": "以下内容：本产品包含在 Apache Software Foundation（http://www.apache.org/）开发的软件。A line with: This product includes software developed at The Apache Software Foundation (http://www.apache.org/).",
         "correct": true,
         "level": 1,
-        "hint": "Software is developed at the Apache Software Foundation."
+        "hint": "软件是在 Apache Software Foundation 开发的。Software is developed at the Apache Software Foundation."
       },
       {
-         "answer": "A line with: This product includes software developed by The Apache Software Foundation (http://www.apache.org/).",
+         "answer": "以下内容：本产品包含由 Apache Software Foundation（http://www.apache.org/）开发的软件。A line with: This product includes software developed by The Apache Software Foundation (http://www.apache.org/).",
          "correct": false,
         "level": 2,
-         "hint": "Software is developed at the Apache Software Foundation."
+         "hint": "软件是在 Apache Software Foundation 开发的。Software is developed at the Apache Software Foundation."
        }
     ],
-    "reason": "NOTICE only contains the project name, ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
+    "reason": "NOTICE 仅包含项目名称，ASF 版权，重新定位的版权声明，绑定软件的 NOTICE 文件的内容和所需的第三方声明。NOTICE only contains the project name, ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
     "links": [
       {
         "name": "Assembling LICENSE and NOTICE",

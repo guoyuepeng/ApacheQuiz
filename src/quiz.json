@@ -800,7 +800,7 @@
         "answer": "Creative Commons Non-Commercial.",
         "correct": false,
         "level": 1,
-        "hint": "Licenses with non-commercial clasuses are not compatible with the Apache License 2.0."
+        "hint": "Licenses with non-commercial clauses are not compatible with the Apache License 2.0."
       },
       {
         "answer": "Creative Commons Copyright-Only Dedication.",
@@ -930,7 +930,7 @@
         "answer": "Common Development and Distribution Licenses: CDDL 1.0 and CDDL 1.1.",
         "correct": true,
         "level": 2,
-        "hint": "License requires a ist of modifications and who the contributors were."
+        "hint": "License requires a list of modifications and who the contributors were."
       },
       {
         "answer": "Works in the public domain.",
@@ -960,7 +960,7 @@
     ]
   },
   {
-    "question": "An ASF project's NOTICE file should contain:",
+    "question": "An ASF project's NOTICE file should contain?",
     "show": "4",
     "category": "licensing",
     "answers": [
@@ -977,7 +977,7 @@
         "hint": ""
       },
       {
-        "answer": "A ist of bundled licenses.",
+        "answer": "A list of bundled licenses.",
         "correct": false,
         "level": 1,
         "hint": "Licenses need to be listed in LICENSE not NOTICE."
