@@ -1,6 +1,6 @@
 [
   {
-    "question": "要让一个顶级项目(TLP)的发布(release)投票得到通过，你需要满足: For a vote on a top level project release to pass you need:",
+    "question": "要让一个顶级项目(TLP)的发布投票得到通过，你需要满足: For a vote on a top level project release to pass you need:",
     "category": "release policy",
     "show": "4",
     "answers": [
@@ -995,7 +995,7 @@
         "hint": "这些通常包含在 LICENSE 中，包括 LICENSE 的文本。These are usually included in LICENSE by including the text of the LICENSE."
       },
       {
-        "answer": "绑定的 Apache licensed 2.0 NOTICE 文件的内容。Contents from bundled Apache licensed 2.0 NOTICE file",
+        "answer": "绑定的 Apache licensed 2.0 的软件的 NOTICE 内容。Contents from bundled Apache licensed 2.0 NOTICE file",
         "correct": true,
         "level": 2,
         "hint": "绑定软件中任何 Apache licensed 2.0 NOTICE 文件的内容都需要传播到 NOTICE 文件。Contents of any Apache licensed 2.0 NOTICE file in bundled software needs to be propagated to the NOTICE file."
@@ -1013,7 +1013,7 @@
         "hint": "依赖关系不需要在 LICENSE 或 NOTICE 中列出。Dependencies do not need to be listed in LICENSE or NOTICE."
       },
       {
-        "answer": "以下内容：本产品包含在 Apache Software Foundation（http://www.apache.org/）开发的软件。A line with: This product includes software developed at The Apache Software Foundation (http://www.apache.org/).",
+        "answer": "以下内容：本产品包含了 Apache Software Foundation（http://www.apache.org/）开发的软件。A line with: This product includes software developed at The Apache Software Foundation (http://www.apache.org/).",
         "correct": true,
         "level": 1,
         "hint": "软件是在 Apache Software Foundation 开发的。Software is developed at the Apache Software Foundation."
@@ -1025,7 +1025,7 @@
          "hint": "软件是在 Apache Software Foundation 开发的。Software is developed at the Apache Software Foundation."
        }
     ],
-    "reason": "NOTICE 仅包含项目名称，ASF 版权，重新定位的版权声明，绑定软件的 NOTICE 文件的内容和所需的第三方声明。NOTICE only contains the project name, ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
+    "reason": "NOTICE 仅包含项目名称，ASF 版权，重新定位的版权声明，绑定软件的 NOTICE 文件的内容和必要的第三方声明。NOTICE only contains the project name, ASF copyright, relocated copyright statements, contents of bundled software NOTICE files and required third party notices.",
     "links": [
       {
         "name": "Assembling LICENSE and NOTICE",
